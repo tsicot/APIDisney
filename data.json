@@ -1,0 +1,67 @@
+[
+    {
+       id : 1
+      nom : Cendrillon
+      realisateur : ton père
+      année : 1950
+      personnages : 
+      [
+        {
+           id : 10
+           nom : Cendrillon
+           film : Cendriollon
+           genre : Fille
+           alignement : Gentil
+           acteur : 
+           {
+              id : 100
+              nom : Jeanne D'arc
+           }
+        }
+      ]
+    }
+,
+    {
+       id : 2
+      nom : Mulan
+      realisateur : ta mère
+      année : 1980
+      personnages : 
+      [
+        {
+           id : 20
+           nom : Mulan
+           film : Mulan
+           genre : Fille
+           alignement : Gentil
+           acteur : 
+           {
+              id : 200
+              nom : Lucy Liu
+           }
+        }
+      ]
+    }
+,
+    {
+       id : 3
+      nom : Merlin l'enchanteur
+      realisateur : ton frère
+      année : 2000
+      personnages : 
+      [
+        {
+           id : 30
+           nom : Arthur
+           film : Merlin l'enchanteur
+           genre : Garçon
+           alignement : Gentil
+           acteur : 
+           {
+              id : 300
+              nom : Arthur Souriceau
+           }
+        }
+      ]
+    }
+  ]
