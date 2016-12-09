@@ -1,0 +1,29 @@
+[
+    {
+           "id":10,
+           "nom":"Cendrillon",
+           "film":"Cendriollon",
+           "genre":"Fille",
+           "alignement":"Gentil",
+           "acteur_id":100
+    }
+  ,
+    {
+           "id":20,
+           "nom":"Mulan",
+           "film":"Mulan",
+           "genre":"Fille",
+           "alignement":"Gentil",
+           "acteur_id":200
+     }
+    ,
+      {
+           "id":30,
+           "nom":"Arthur",
+           "film":"Merlin l'enchanteur",
+           "genre":"Garçon",
+           "alignement":"Gentil",
+           "acteur_id":300
+        }
+  
+]
