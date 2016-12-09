@@ -12,10 +12,11 @@ Film
   -> Realisateur
 Acteur
   -> Nom
+  -> Prénom
+
+
 
 GET api/personnage/:id
-
-  reponse :
   {
     id : nombre
     nom : string
@@ -28,10 +29,37 @@ GET api/personnage/:id
         nom : string
       }
   }
-  
-GET api/films
 
-    reponse :
+POST api/personnage
+  Content-Type: application/json
+    {
+    id : nombre
+    nom : string
+    film : string
+    genre : string
+    alignement : string
+    acteur_id : nombre
+    }
+  Reponse :
+    header location
+  
+POST api/personnages
+  Content-Type: application/json
+  [
+    {
+    id : nombre
+    nom : string
+    film : string
+    genre : string
+    alignement : string
+    acteur_id : nombre
+    }
+  ]
+  
+  Reponse :
+    header location
+
+GET api/films
   [
     {
        id : nombre
@@ -57,8 +85,6 @@ GET api/films
   ]
   
 GET api/film/:id
-
-    reponse :
   {
      id : nombre
     nom : string
@@ -80,9 +106,39 @@ GET api/film/:id
     ]
   }
   
+POST api/film
+  Content-Type: application/json
+    nom : string
+    realisateur : string
+    [
+      personnages_id : nombre
+    ]
+  Reponse :
+    header location
+  
 GET api/acteur/:id
 {
   id : nombre
   nom : string
   prenom : string
 }
+
+POST api/acteur
+  Content-Type: application/json
+    {
+    nom : string
+    prenom :string
+    }
+  Reponse :
+    header location
+    
+POST api/acteurs
+  Content-Type: application/json
+    [
+      {
+      nom : string
+      prenom :string
+      }
+    ]
+  Reponse :
+    header location
